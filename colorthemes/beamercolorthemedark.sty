@@ -1,0 +1,67 @@
+% Dark mode for Gemini theme
+% Based on https://github.com/anishathalye/gemini
+
+% ====================
+% Definitions
+% ====================
+
+\definecolor{lightgray}{RGB}{245, 246, 250}
+\definecolor{blue}{RGB}{64, 115, 158}
+\definecolor{darkblue}{RGB}{33, 45, 101}
+\definecolor{background}{HTML}{303030}
+\definecolor{foreground}{HTML}{E0E2E6} 
+
+
+\definecolor{examplebg}{HTML}{202020}
+
+
+% ====================
+% Theme
+% ====================
+
+% Basic colors
+\setbeamercolor{background canvas}{bg=background}
+\setbeamercolor{palette primary}{fg=foreground,bg=background}
+\setbeamercolor{palette secondary}{fg=foreground,bg=background}
+\setbeamercolor{palette tertiary}{bg=foreground,fg=background}
+\setbeamercolor{palette quaternary}{fg=foreground,bg=background}
+\setbeamercolor{structure}{fg=foreground}
+
+% Headline
+\setbeamercolor{headline}{fg=lightgray,bg=darkblue}
+\setbeamercolor{headline rule}{bg=foreground}
+
+% Block
+\setbeamercolor{block title}{fg=foreground,bg=background}
+\setbeamercolor{block separator}{bg=foreground}
+\setbeamercolor{block body}{fg=foreground,bg=background}
+
+% Alert Block
+\setbeamercolor{block alerted title}{fg=foreground,bg=examplebg}
+\setbeamercolor{block alerted separator}{bg=foreground}
+\setbeamercolor{block alerted body}{fg=foreground,bg=examplebg}
+
+% Example Block
+\setbeamercolor{block example title}{fg=foreground,bg=examplebg}
+\setbeamercolor{block example separator}{bg=foreground}
+\setbeamercolor{block example body}{fg=foreground,bg=examplebg}
+
+% Heading
+\setbeamercolor{heading}{fg=foreground}
+
+% Itemize
+\setbeamercolor{item}{fg=foreground}
+
+% Bibliography
+\setbeamercolor{bibliography item}{fg=foreground}
+\setbeamercolor{bibliography entry author}{fg=foreground}
+\setbeamercolor{bibliography entry title}{fg=foreground}
+\setbeamercolor{bibliography entry location}{fg=foreground}
+\setbeamercolor{bibliography entry note}{fg=foreground}
+\setbeamertemplate{bibliography entry article}{}
+\setbeamertemplate{bibliography entry title}{}
+\setbeamertemplate{bibliography entry location}{}
+\setbeamertemplate{bibliography entry note}{}
+
+% Increase font weight for dark mode
+\setsansfont{Lato}
