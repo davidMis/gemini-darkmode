@@ -1,6 +1,8 @@
 This is an example of a "darkmode" color scheme for the Gemini Beamer poster template. See the original README for me instructions:
 https://github.com/anishathalye/gemini
 
+![Poster Example](poster_example.png)
+
 The changes are in the "colorthemes/beamercolorthemedark.sty". You can modify the styles there.
 
 Another suggestion: If you are using matplotlib, I suggest exploring the CMasher color maps to find one that fits your color scheme:
